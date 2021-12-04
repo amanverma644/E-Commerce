@@ -66,8 +66,8 @@ const OrderScreen = () => {
               )}
             </ListGroup.Item>
             <ListGroup.Item>
+              <h3>Payment Method</h3>
               <p>
-                <h3>Payment Method</h3>
                 <strong>Method: </strong>
                 {order.paymentMethod}
               </p>
