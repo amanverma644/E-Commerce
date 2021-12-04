@@ -30,8 +30,8 @@ const addOrderItems = asyncHandler(async (req, res) => {
       texPrice,
       totalPrice,
     })
-    const createOrder = await order.save()
-    res.status(201).json(createOrder)
+    const createdOrder = await order.save()
+    res.status(201).json(createdOrder)
   }
 })
 
