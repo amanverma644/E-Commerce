@@ -1,9 +1,12 @@
-# ProShop eCommerce Platform
+# ProShop eCommerce
 
 > eCommerce platform built with the MERN stack & Redux.
-This is the course project for my MERN eCommerce course
 
 ![screenshot](https://github.com/amanverma644/E-Commerce/blob/master/uploads/Proshop%20SS.png)
+
+## Deployment Link
+
+> https://proshoppapp.herokuapp.com
 
 ## Features
 
