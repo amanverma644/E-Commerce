@@ -1,13 +1,14 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { useParams } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 import { Col, Row } from 'react-bootstrap'
 import Product from '../components/Products'
 import Message from '../components/Message'
 import Loader from '../components/Loader'
 import Paginate from '../components/Paginate'
-import { listProducts } from '../actions/productActions'
 import ProductCarousel from '../components/ProductCarousel'
+import Meta from '../components/Meta'
+import { listProducts } from '../actions/productActions'
 
 function HomeScreen() {
   const match = useParams()
@@ -26,7 +27,14 @@ function HomeScreen() {
 
   return (
     <>
-      {!keyword && <ProductCarousel />}
+      <Meta />
+      {!keyword ? (
+        <ProductCarousel />
+      ) : (
+        <Link to="/" className="btn btn-light">
+          Go Back
+        </Link>
+      )}
       <h1 className="mt-3">Latest Products</h1>
       {loading ? (
         <Loader />

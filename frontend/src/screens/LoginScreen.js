@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import Message from '../components/Message'
 import Loader from '../components/Loader'
 import FormContainer from '../components/FormContainer'
+import Meta from '../components/Meta'
 import { login } from '../actions/userActions'
 
 const LoginScreen = () => {
@@ -35,6 +36,7 @@ const LoginScreen = () => {
 
   return (
     <FormContainer>
+      <Meta title={'Proshop Sign In'} />
       <h1>Sign In</h1>
       {error && <Message variant="danger">{error}</Message>}
       {loading && <Loader />}
