@@ -2,7 +2,7 @@
 
 > eCommerce platform built with the MERN stack & Redux.
 
-![screenshot](https://github.com/amanverma644/E-Commerce/blob/master/uploads/Proshop%20SS.png)
+![screenshot](https://github.com/amanverma644/E-Commerce/blob/master/uploads/ProShop%20Sample%20img.png)
 
 ## Deployment Link
 
