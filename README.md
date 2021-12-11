@@ -4,7 +4,7 @@
 
 ![screenshot](https://github.com/amanverma644/E-Commerce/blob/master/uploads/ProShop%20Sample%20img.png)
 
-## Deployment Link
+## Deployment Link:
 
 > https://proshoppapp.herokuapp.com
 
